@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Николай — AI-интеграция бизнеса</title>
+  <meta name="description" content="Кинематографический сайт о внедрении AI, автоматизации и цифровой системы компании для предпринимателей." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="cursor-glow" aria-hidden="true"></div>
+  <div class="noise" aria-hidden="true"></div>
+  <canvas id="neural-canvas" aria-hidden="true"></canvas>
+
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="На главную">
+      <span class="brand-mark">N</span>
+      <span>AI Systems</span>
+    </a>
+    <nav class="nav" aria-label="Основная навигация">
+      <a href="#diagnostic">Диагностика</a>
+      <a href="#solutions">Решения</a>
+      <a href="#process">Процесс</a>
+      <a href="#spin">SPIN</a>
+    </nav>
+    <a class="header-cta" href="https://t.me/" target="_blank" rel="noreferrer">Telegram</a>
+  </header>
+
+  <main id="top">
+    <section class="hero section-shell">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">AI-интеграция • Автоматизация • Цифровая система</p>
+        <h1>Внедрение AI в бизнес — от первых автоматизаций до системы компании</h1>
+        <p class="hero-lead">Для предпринимателей, которые понимают: AI уже меняет рынок, но хотят внедрить его без хаоса, лишних затрат и «игрушек ради игрушек».</p>
+        <div class="hero-actions">
+          <a class="button button-primary magnetic" href="#contact">Написать «AI для бизнеса»</a>
+          <button class="button button-ghost magnetic" type="button" data-open-brief>Пройти экспресс-диагностику</button>
+        </div>
+        <div class="metrics" aria-label="Ключевые эффекты">
+          <div><strong>− рутина</strong><span>повторяющиеся операции уходят в систему</span></div>
+          <div><strong>+ скорость</strong><span>заявки и ответы двигаются быстрее</span></div>
+          <div><strong>+ масштаб</strong><span>рост без постоянного увеличения команды</span></div>
+        </div>
+      </div>
+
+      <div class="hero-orb reveal" aria-label="Интерактивная AI-система">
+        <div class="orb-ring ring-one"></div>
+        <div class="orb-ring ring-two"></div>
+        <div class="orb-core">
+          <span>AI</span>
+          <small>business<br>orchestration</small>
+        </div>
+        <div class="orbit-card card-a">CRM</div>
+        <div class="orbit-card card-b">Bots</div>
+        <div class="orbit-card card-c">Knowledge</div>
+        <div class="orbit-card card-d">Agents</div>
+      </div>
+    </section>
+
+    <section id="diagnostic" class="section-shell grid-two">
+      <div class="sticky-title reveal">
+        <p class="eyebrow">О вас</p>
+        <h2>Если процессы держатся на людях, бизнес теряет скорость</h2>
+        <p>Вы владелец бизнеса, эксперт или руководитель. Возможно, заявки тонут в мессенджерах, знания живут «в головах», а сотрудники вручную делают то, что уже можно передать системе.</p>
+      </div>
+      <div class="problem-stack">
+        <article class="glass-card reveal"><span>01</span><h3>Рутина съедает команду</h3><p>Сотрудники повторяют одни и те же действия вместо работы с ростом, клиентами и продуктом.</p></article>
+        <article class="glass-card reveal"><span>02</span><h3>Заявки теряются</h3><p>Мессенджеры, таблицы и ручные напоминания создают слепые зоны в продажах.</p></article>
+        <article class="glass-card reveal"><span>03</span><h3>Клиенты ждут слишком долго</h3><p>Ответы запаздывают, менеджеры перегружены, а часть денег уходит конкурентам.</p></article>
+        <article class="glass-card reveal"><span>04</span><h3>AI кажется сложным</h3><p>Инструментов много, но неясно, что даст эффект именно вашему бизнесу.</p></article>
+      </div>
+    </section>
+
+    <section id="solutions" class="section-shell">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Чем я могу помочь</p>
+        <h2>Не сервис ради сервиса, а решение конкретной бизнес-проблемы</h2>
+        <p>Меня зовут Николай. Я нахожу точки, где бизнес теряет время, деньги или эффективность, и собираю практичное решение: от простого бота до многоагентной AI-системы.</p>
+      </div>
+      <div class="solution-grid">
+        <button class="solution-card reveal" data-solution="AI-консультант отвечает клиентам и сотрудникам по базе знаний.">AI-консультант</button>
+        <button class="solution-card reveal" data-solution="Telegram-бот принимает заявки, квалифицирует лиды и передаёт их дальше.">Telegram-бот</button>
+        <button class="solution-card reveal" data-solution="CRM фиксирует клиента, статус, задачу и следующий шаг без хаоса.">CRM-система</button>
+        <button class="solution-card reveal" data-solution="Автоматизация заявок убирает ручную сортировку и забытые сообщения.">Обработка заявок</button>
+        <button class="solution-card reveal" data-solution="База знаний превращает опыт компании в доступную цифровую память.">База знаний</button>
+        <button class="solution-card reveal" data-solution="AI-помощник снижает нагрузку на команду и ускоряет типовые задачи.">AI-помощник</button>
+        <button class="solution-card reveal" data-solution="Напоминания не дают сделкам, задачам и клиентам выпадать из процесса.">Напоминания</button>
+        <button class="solution-card reveal" data-solution="Интеграции связывают сервисы в единую систему без двойного ввода.">Интеграции</button>
+        <button class="solution-card reveal" data-solution="Многоагентные системы распределяют сложные задачи между AI-ролями.">AI-агенты</button>
+      </div>
+      <div class="solution-output reveal" id="solution-output">Наведите или нажмите на карточку, чтобы увидеть механику внедрения.</div>
+    </section>
+
+    <section id="process" class="section-shell timeline-section">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Как проходит работа</p>
+        <h2>Пять шагов от хаоса к управляемой системе</h2>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item reveal"><span>1</span><h3>Диагностика</h3><p>Находим, где теряются заявки, время, деньги и внимание команды.</p></div>
+        <div class="timeline-item reveal"><span>2</span><h3>Поиск решения</h3><p>Подбираем технологию без переплаты и внедрения лишних сервисов.</p></div>
+        <div class="timeline-item reveal"><span>3</span><h3>Внедрение</h3><p>Настраиваем систему, подключаем подрядчиков по дизайну, разработке или маркетингу при необходимости.</p></div>
+        <div class="timeline-item reveal"><span>4</span><h3>Тестирование</h3><p>Проверяем работу на реальных сценариях, заявках и сотрудниках.</p></div>
+        <div class="timeline-item reveal"><span>5</span><h3>Развитие</h3><p>После первых результатов переходим к продвинутым сценариям автоматизации.</p></div>
+      </div>
+    </section>
+
+    <section class="section-shell experience">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Опыт</p>
+        <h2>Понимаю бизнес на стыке управления, digital и AI</h2>
+      </div>
+      <div class="experience-grid">
+        <article class="glass-card reveal"><h3>Образование</h3><p>Развитие образовательных проектов, работа с детьми и родителями, управление группами.</p></article>
+        <article class="glass-card reveal"><h3>Digital</h3><p>Таргетированная реклама, SEO, веб-разработка, подрядчики и запуск направлений.</p></article>
+        <article class="glass-card reveal"><h3>Управление</h3><p>Координация проектов, организация специалистов и выстраивание процессов.</p></article>
+        <article class="glass-card reveal"><h3>AI и автоматизация</h3><p>AI-инструменты, агентные системы, базы знаний, оркестрация и цифровое управление.</p></article>
+      </div>
+    </section>
+
+    <section id="spin" class="section-shell spin-lab">
+      <div class="spin-panel reveal">
+        <p class="eyebrow">SPIN-скрипт</p>
+        <h2>Интерактивная карта продаж AI-автоматизации</h2>
+        <p>Переключайте этапы и используйте вопросы как основу для созвона: сначала ситуация, затем проблема, последствия, ценность и план.</p>
+        <div class="spin-tabs" role="tablist" aria-label="Этапы SPIN">
+          <button class="active" data-spin="open">Открытие</button>
+          <button data-spin="situation">Ситуация</button>
+          <button data-spin="problem">Проблема</button>
+          <button data-spin="impact">Последствия</button>
+          <button data-spin="need">Ценность</button>
+          <button data-spin="close">Закрытие</button>
+        </div>
+      </div>
+      <div class="spin-card reveal" id="spin-card" aria-live="polite"></div>
+    </section>
+
+    <section id="contact" class="section-shell final-cta reveal">
+      <p class="eyebrow">Сейчас ищу первые проекты</p>
+      <h2>Хотите понять, где бизнес теряет время и что можно автоматизировать?</h2>
+      <p>Напишите в Telegram фразу <strong>«AI для бизнеса»</strong>. Коротко обсудим задачу и поймём, есть ли смысл работать вместе.</p>
+      <a class="button button-primary magnetic" href="https://t.me/" target="_blank" rel="noreferrer">Связаться в Telegram</a>
+    </section>
+  </main>
+
+  <dialog class="brief-modal" id="brief-modal">
+    <form method="dialog">
+      <button class="modal-close" aria-label="Закрыть">×</button>
+      <p class="eyebrow">Экспресс-диагностика</p>
+      <h2>Где сейчас узкое место?</h2>
+      <div class="brief-options">
+        <button value="Заявки теряются">Заявки теряются</button>
+        <button value="Много рутины">Много рутины</button>
+        <button value="Нет базы знаний">Нет базы знаний</button>
+        <button value="Нужна CRM/бот">Нужна CRM/бот</button>
+      </div>
+      <p class="modal-hint">Выберите пункт — и используйте его как первое сообщение Николаю.</p>
+    </form>
+  </dialog>
+
+  <script src="script.js"></script>
+</body>
+</html>
